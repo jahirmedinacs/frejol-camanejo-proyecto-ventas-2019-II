@@ -6187,7 +6187,7 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
-      (0, _sourceMapSupport.rewriteStacktrace)(error, "/home/renatomc/Documentos/UNT/frejol-camanejo-proyecto-ventas-2019-II/.next");
+      (0, _sourceMapSupport.rewriteStacktrace)(error, "/home/william/Escritorio/UNT/frontend-ventas/frejol-camanejo-proyecto-ventas-2019-II/.next");
       return error;
     }
   };

@@ -2099,10 +2099,10 @@ for (var i = 0; i < DOMIterables.length; i++) {
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Frenatomc%2FDocumentos%2FUNT%2Ffrejol-camanejo-proyecto-ventas-2019-II%2Fpages%2Findex.js!./":
-/*!***************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Frenatomc%2FDocumentos%2FUNT%2Ffrejol-camanejo-proyecto-ventas-2019-II%2Fpages%2Findex.js ***!
-  \***************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fwilliam%2FEscritorio%2FUNT%2Ffrontend-ventas%2Ffrejol-camanejo-proyecto-ventas-2019-II%2Fpages%2Findex.js!./":
+/*!********************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fwilliam%2FEscritorio%2FUNT%2Ffrontend-ventas%2Ffrejol-camanejo-proyecto-ventas-2019-II%2Fpages%2Findex.js ***!
+  \********************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2154,7 +2154,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/home/renatomc/Documentos/UNT/frejol-camanejo-proyecto-ventas-2019-II/pages/index.js";
+var _jsxFileName = "/home/william/Escritorio/UNT/frontend-ventas/frejol-camanejo-proyecto-ventas-2019-II/pages/index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement;
 
 
@@ -2172,10 +2172,11 @@ function (_Component) {
   Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Index, [{
     key: "render",
     value: function render() {
-      return __jsx("div", {
+      return __jsx("h1", {
+        style: styleTitulo,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 8
+          lineNumber: 6
         },
         __self: this
       }, "holis");
@@ -2185,18 +2186,21 @@ function (_Component) {
   return Index;
 }(react__WEBPACK_IMPORTED_MODULE_5__["Component"]);
 
+var styleTitulo = {
+  color: 'red'
+};
 /* harmony default export */ __webpack_exports__["default"] = (Index);
 
 /***/ }),
 
 /***/ 0:
-/*!*******************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Frenatomc%2FDocumentos%2FUNT%2Ffrejol-camanejo-proyecto-ventas-2019-II%2Fpages%2Findex.js ***!
-  \*******************************************************************************************************************************************************************/
+/*!************************************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fwilliam%2FEscritorio%2FUNT%2Ffrontend-ventas%2Ffrejol-camanejo-proyecto-ventas-2019-II%2Fpages%2Findex.js ***!
+  \************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Frenatomc%2FDocumentos%2FUNT%2Ffrejol-camanejo-proyecto-ventas-2019-II%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Frenatomc%2FDocumentos%2FUNT%2Ffrejol-camanejo-proyecto-ventas-2019-II%2Fpages%2Findex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fwilliam%2FEscritorio%2FUNT%2Ffrontend-ventas%2Ffrejol-camanejo-proyecto-ventas-2019-II%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fwilliam%2FEscritorio%2FUNT%2Ffrontend-ventas%2Ffrejol-camanejo-proyecto-ventas-2019-II%2Fpages%2Findex.js!./");
 
 
 /***/ }),

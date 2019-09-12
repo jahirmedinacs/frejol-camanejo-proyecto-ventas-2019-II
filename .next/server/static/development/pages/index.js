@@ -104,16 +104,17 @@ module.exports =
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/home/renatomc/Documentos/UNT/frejol-camanejo-proyecto-ventas-2019-II/pages/index.js";
+var _jsxFileName = "/home/william/Escritorio/UNT/frontend-ventas/frejol-camanejo-proyecto-ventas-2019-II/pages/index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 class Index extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
   render() {
-    return __jsx("div", {
+    return __jsx("h1", {
+      style: styleTitulo,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 8
+        lineNumber: 6
       },
       __self: this
     }, "holis");
@@ -121,6 +122,9 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 
 }
 
+const styleTitulo = {
+  color: 'red'
+};
 /* harmony default export */ __webpack_exports__["default"] = (Index);
 
 /***/ }),
@@ -132,7 +136,7 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/renatomc/Documentos/UNT/frejol-camanejo-proyecto-ventas-2019-II/pages/index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! /home/william/Escritorio/UNT/frontend-ventas/frejol-camanejo-proyecto-ventas-2019-II/pages/index.js */"./pages/index.js");
 
 
 /***/ }),
