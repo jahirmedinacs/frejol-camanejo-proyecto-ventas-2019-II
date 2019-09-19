@@ -2193,7 +2193,7 @@ var styleTitulo = {
 
 /***/ }),
 
-/***/ 2:
+/***/ 0:
 /*!************************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fwilliam%2FEscritorio%2FUNT%2Ffrontend-ventas%2Ffrejol-camanejo-proyecto-ventas-2019-II%2Fpages%2Findex.js ***!
   \************************************************************************************************************************************************************************************/
@@ -2216,5 +2216,5 @@ module.exports = dll_01f9a3fa864a7b7414d8;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[0,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map

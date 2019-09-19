@@ -13,7 +13,7 @@ class Login extends Component {
                     <ul>
                       <li>
                         <a href="./">
-                          <img src ="./chicharo.png"></img>
+                          <img src ="/static/chicharo.png" alt="image logo" width="50" height="15"></img>
                         </a>
                       </li>
                     </ul>               
@@ -24,7 +24,6 @@ class Login extends Component {
                   <div className = "modal-wrapp">
                     <div className = "modal-form">
                       <div className = "login">
-
                         <div className = "form-container">
                           <h1 className = "form-heading-h1"><span>Iniciar sesión</span></h1>
                           <div className ="flex">
@@ -216,7 +215,10 @@ class Login extends Component {
                  box-sizing : border-box;
                  cursor: pointer;
                  padding: 11px 18px;
-               }           
+               }
+               .help-section {
+                 text-align: center;
+               }
             `}
             </style>
           </body>
