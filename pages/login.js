@@ -44,7 +44,7 @@ class Login extends Component {
                           <div className = "create-account">
                             <p>
                               <span>¿No tiene cuenta? </span>
-                              <a href="">
+                              <a href="/registered">
                               <span> Crear una cuenta.</span>
                               </a>
                             </p>
