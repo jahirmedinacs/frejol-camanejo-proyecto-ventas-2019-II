@@ -1,10 +1,12 @@
 import React, {Component} from 'react'
+import Base from '../layout/base'
 
 
 
 class Login extends Component {
   render() {
       return (
+        <Base>
           <body>
             <div>
               <div className= "nav-home">
@@ -222,6 +224,7 @@ class Login extends Component {
             `}
             </style>
           </body>
+        </Base>
       )
   }
 }

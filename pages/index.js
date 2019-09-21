@@ -1,16 +1,14 @@
 import React, { Component } from 'react'
 
+import Base from '../layout/base'
+
 class Index extends Component {
   render() {
     return (
-      <h1 style={ styleTitulo }>
-        holis
-      </h1>
+      <Base>
+      </Base>
     )
   }
-}
-const styleTitulo = {
-  color: 'red'
 }
 
 export default Index
