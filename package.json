@@ -1,0 +1,28 @@
+{
+  "name": "frejol-camanejo-proyecto-ventas-2019-II",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^9.0.6",
+    "react": "^16.10.0",
+    "react-dom": "^16.10.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jahirmedinacs/frejol-camanejo-proyecto-ventas-2019-II.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jahirmedinacs/frejol-camanejo-proyecto-ventas-2019-II/issues"
+  },
+  "homepage": "https://github.com/jahirmedinacs/frejol-camanejo-proyecto-ventas-2019-II#readme"
+}
