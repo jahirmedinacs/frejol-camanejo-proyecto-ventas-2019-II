@@ -1,1 +1,2 @@
 ./django-apps/env/*
+./.vscode/*
