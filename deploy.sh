@@ -22,26 +22,27 @@ case $1 in
     ### Installing Dependencies
     image_exists mongo;
     image_exists postgres;
+
+    sudo apt-get install libpq-dev postgresql postgresql-contrib;
     ;;
     "init")
     ### Running|Starting containers
-    docker start mongodb || docker run -d -p 127.0.0.1:27017-27019:27017-27019 --name=mongodb mongo;
-    docker start postgresql || docker run -d -p 127.0.0.1:5432:5432 --name=postgresql postgres;
+    docker start mongodb || docker run -d -p 27017-27019:27017-27019 --name=mongodb mongo;
+    docker start postgresql || docker run -d -p 5432:5432 --name=postgresql -e POSTGRES_USER=admin -e POSTGRES_PASSWORD=12345 postgres;
     ;;
     "exec")
         docker exec -it $2 /bin/bash
-        echo "iQ# CLI Exited"
+        echo "$2# CLI Exited"
     ;;
     "stop")
         docker stop $2
-        echo "iQ# Container Stoped"
+        echo "$2# Container Stoped"
     ;;
     "start")
         docker start $2
-        echo "iQ# Container Started"
+        echo "$2# Container Started"
     ;;
     "list")
         docker container ls -a;
     ;;
 esac
-    
